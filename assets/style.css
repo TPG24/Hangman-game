@@ -1,0 +1,52 @@
+body {
+    color: #FFD700;
+    background-image: url("../pictures/parcel.jpeg");
+}
+
+.background {
+    background-size:cover;
+    background-image: url("../pictures/fortniteBackground.jpeg");
+    background-blend-mode: multiply;
+}
+
+#hangman-game-button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: block;
+    background-color: #92c6ea;
+    font-size: 22px;
+    font-weight: bold;
+    color: #FFD700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 6px #5f5f5e;
+    position: relative;
+}
+
+#hangman-game-button:hover {
+    box-shadow: 0 4px #5f5f5e;
+    top: 2px;
+
+}
+
+#hangman-game-button:active {
+    box-shadow: 0 0px #5f5f5e;
+    top: 6px;
+}
+
+#place-holders {
+    letter-spacing: 6px;
+    font-size: 55px;
+    color: black;
+}
+
+#placeholder-section {
+    color: black;
+}
+
+#bottom-section {
+    color: black;
+}

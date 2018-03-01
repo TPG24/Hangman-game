@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman Game</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+
+
+</head>
+<body>
+
+    <div class="jumbotron-fluid background py-5">
+        <div class="container py-5">
+            <div class ="row align-items center">
+                <div class="col-12 col-md-8 my-3">
+                    <h1><strong>Fortnite Hangman Edition</strong></h1>
+                    <button id="hangman-game-button">
+                        <i class="fab fa-fort-awesome-alt"></i>
+                        Conquer the Fort!
+                    </button>
+
+                </div>
+                <div class="col-12 col-md-4 my-3">
+                    <img src="pictures/fortnitePic1.jpg" class="img-fluid" alt="fornite">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 text-center py-5" id="placeholder-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 my-3">
+                            <h2>Fill in the Blanks!
+                            <br/>
+                                <span id="place-holders">_ ____ ___!</span>
+                            </h2>
+
+                        </div>
+                        <div class="col-12 col-md-6 my-3">
+                            <h2>Incorrect Guess!
+                                <br/>
+                                <span id="guessed-letter"></span>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="bottom-section">
+            <div class="col-12 col-md-4 text-center py-5">
+                <h3>
+                    Guess Left: <span id="guess-left">0</span>
+                </h3>
+            </div>
+            <div class="col-12 col-md-4 text-center py-5">
+                <h3>
+                    Wins: <span id="wins">0</span>
+                </h3>
+            </div>
+            <div class="col-12 col-md-4 text-center py-5">
+                <h3>
+                    Losses: <span id="losses">0</span>
+                </h3>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="assets/hangman-function.js"></script>
+
+</body>
+</html>
